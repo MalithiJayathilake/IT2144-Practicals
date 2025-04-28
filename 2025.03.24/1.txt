@@ -1,0 +1,129 @@
+login as: 2021ict52
+2021ict52@172.16.140.150's password:
+Last login: Fri Mar 21 15:24:47 2025 from 172.16.140.53
+[2021ict52@fedora ~]$ cla
+bash: cla: command not found...
+Similar command is: 'cal'
+[2021ict52@fedora ~]$ pwd
+/home/2021ict52
+[2021ict52@fedora ~]$ ls
+awkvars.out  example.tsv  file.txt  xyz.tsv
+[2021ict52@fedora ~]$ ls -a
+.            .bash_history  .bashrc           .example.txt.swp  xyz.tsv
+..           .bash_logout   example.tsv       file.txt
+awkvars.out  .bash_profile  .example.tsv.swp  .mozilla
+[2021ict52@fedora ~]$ cal
+     March 2025
+Su Mo Tu We Th Fr Sa
+                   1
+ 2  3  4  5  6  7  8
+ 9 10 11 12 13 14 15
+16 17 18 19 20 21 22
+23 24 25 26 27 28 29
+30 31
+[2021ict52@fedora ~]$ ls -ahtr
+.bashrc        .mozilla  .example.txt.swp  xyz.tsv      .bash_history
+.bash_profile  ..        .example.tsv.swp  awkvars.out
+.bash_logout   file.txt  example.tsv       .
+[2021ict52@fedora ~]$ date+%d
+bash: date+%d: command not found...
+[2021ict52@fedora ~]$ date +%d
+24
+[2021ict52@fedora ~]$ date +%y
+25
+[2021ict52@fedora ~]$ date +%A
+Monday
+[2021ict52@fedora ~]$ date +%a
+Mon
+[2021ict52@fedora ~]$ date +%B
+March
+[2021ict52@fedora ~]$ date +%b
+Mar
+[2021ict52@fedora ~]$ ls -htr
+file.txt  example.tsv  xyz.tsv  awkvars.out
+[2021ict52@fedora ~]$ ls -ltr
+total 12
+-rw-r--r--. 1 2021ict52 2021ict52   0 Mar 21 14:58 file.txt
+-rw-r--r--. 1 2021ict52 2021ict52  62 Mar 21 15:28 example.tsv
+-rw-r--r--. 1 2021ict52 2021ict52   9 Mar 21 15:40 xyz.tsv
+-rw-r--r--. 1 2021ict52 2021ict52 422 Mar 21 15:48 awkvars.out
+[2021ict52@fedora ~]$ date +%H
+11
+
+
+
+
+
+login as: 2021ict52
+2021ict52@172.16.140.150's password:
+Last login: Mon Mar 24 11:34:36 2025 from 172.16.140.56
+[2021ict52@fedora ~]$ cal
+     March 2025
+Su Mo Tu We Th Fr Sa
+                   1
+ 2  3  4  5  6  7  8
+ 9 10 11 12 13 14 15
+16 17 18 19 20 21 22
+23 24 25 26 27 28 29
+30 31
+[2021ict52@fedora ~]$ pwd
+/home/2021ict52
+[2021ict52@fedora ~]$ ls
+awkvars.out  example.tsv  file.txt  xyz.tsv
+[2021ict52@fedora ~]$ ls -a
+.            .bash_history  .bashrc           .example.txt.swp  xyz.tsv
+..           .bash_logout   example.tsv       file.txt
+awkvars.out  .bash_profile  .example.tsv.swp  .mozilla
+[2021ict52@fedora ~]$ ls -ltr
+total 12
+-rw-r--r--. 1 2021ict52 2021ict52   0 Mar 21 14:58 file.txt
+-rw-r--r--. 1 2021ict52 2021ict52  62 Mar 21 15:28 example.tsv
+-rw-r--r--. 1 2021ict52 2021ict52   9 Mar 21 15:40 xyz.tsv
+-rw-r--r--. 1 2021ict52 2021ict52 422 Mar 21 15:48 awkvars.out
+[2021ict52@fedora ~]$ date +%d
+24
+[2021ict52@fedora ~]$ date +%y
+25
+[2021ict52@fedora ~]$ date +%A
+Monday
+[2021ict52@fedora ~]$ date +%a
+Mon
+[2021ict52@fedora ~]$ date +%B
+March
+[2021ict52@fedora ~]$ date +%b
+Mar
+[2021ict52@fedora ~]$ date +%H
+11
+[2021ict52@fedora ~]$ date +%h
+Mar
+[2021ict52@fedora ~]$ ^C
+[2021ict52@fedora ~]$
+[2021ict52@fedora ~]$
+[2021ict52@fedora ~]$
+[2021ict52@fedora ~]$ vi prgrml.sh
+[2021ict52@fedora ~]$ is
+bash: is: command not found...
+[2021ict52@fedora ~]$ ls
+awkvars.out  example.tsv  file.txt  prgrml.sh  xyz.tsv
+[2021ict52@fedora ~]$ chmod 777 prgrml.sh
+[2021ict52@fedora ~]$ ls
+awkvars.out  example.tsv  file.txt  prgrml.sh  xyz.tsv
+[2021ict52@fedora ~]$ ./prgrml.sh
+Name
+Malithi
+Hi  Malithi
+[2021ict52@fedora ~]$ vi Exercise.sh
+[2021ict52@fedora ~]$ ls
+awkvars.out  example.tsv  Exercise.sh  file.txt  prgrml.sh  xyz.tsv
+[2021ict52@fedora ~]$ chmod 777 Exercise.sh
+[2021ict52@fedora ~]$ ls
+awkvars.out  example.tsv  Exercise.sh  file.txt  prgrml.sh  xyz.tsv
+[2021ict52@fedora ~]$ ./Exercise.sh
+Number 1
+5
+Number 2
+8
+Addition 13
+[2021ict52@fedora ~]$
+
+
