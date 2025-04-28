@@ -1,0 +1,72 @@
+
+
+login as: 2021ict52
+2021ict52@172.16.140.150's password:
+Last login: Fri Apr  4 13:25:04 2025 from 172.16.140.71
+[2021ict52@fedora ~]$ ls
+awkvars.out  data.csv  Day5.sh  example.tsv  Excercise.sh  Exercise.sh  file.txt  prgrml.sh  xyz.tsv
+[2021ict52@fedora ~]$ chmod 777 Day5.sh
+[2021ict52@fedora ~]$ vi Day5.sh
+[2021ict52@fedora ~]$ chmod 777 Day5.sh
+[2021ict52@fedora ~]$ ls
+awkvars.out  data.csv  Day5.sh  example.tsv  Excercise.sh  Exercise.sh  file.txt  prgrml.sh  xyz.tsv
+
+[2021ict52@fedora ~]$ ./Day5.sh
+Enter Your Name:
+Malithi
+Enter the mark for subject1 :
+90
+Enter the mark for subject2 :
+80
+Enter the mark for subject3 :
+70
+Total =  240
+Average =  240/3
+
+
+[2021ict52@fedora ~]$ ./Day5.sh
+Enter Your Name:
+asd
+Enter the mark for subject1 :
+80
+Enter the mark for subject2 :
+70
+Enter the mark for subject3 :
+60
+Total =  210
+Average =  210/3
+
+
+
+echo "Enter Your Name: "
+read name
+echo "Enter the mark for subject1 : "
+read mark1
+echo "Enter the mark for subject2 :"
+read mark2
+echo "Enter the mark for subject3 : "
+read mark3
+echo "Total  =" $(($mark1+$mark2+$mark3))
+echo "Average = " $(($mark1+mark2+mark3))/$((3))
+
+
+
+echo "Enter two Numbers : "
+read a b
+
+if["$a" -gt "$b"];
+then
+echo $b " is greater than " $b
+else
+echo $a  " is less than " $b
+fi
+~
+~
+echo "Enter the First Number : "
+read num1
+echo "Enter the Second Number : "
+read num2
+echo "Summation = "$(($num1+$num2))
+echo "Substraction = "$(($num1-$num2))
+echo "Multiplication = "$(($num1*$num2))
+echo "Division = "$(($num1/$num2))
