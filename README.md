@@ -9,4 +9,8 @@ This file shows your username, Windows version, the current date, and the curren
 
 # 2025.03.17
 
+This script asks for your birth year, calculates your age based on the current year, and then displays your age, the current month, and the current day.
+
+# 2025.03.24
+
 
