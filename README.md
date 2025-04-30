@@ -13,4 +13,8 @@ This script asks for your birth year, calculates your age based on the current y
 
 # 2025.03.24
 
+03 batch file
+This script asks you for two numbers, then calculates and displays their sum, difference, product, and the integer result of their division.
+
+# 2025.03.28
 
