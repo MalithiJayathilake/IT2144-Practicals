@@ -1,0 +1,193 @@
+#include<stdio.h>
+
+int main(){
+	
+	printf("Hello World !");
+	
+return 0;
+}
+
+[2021ict52@fedora ~]$ vi Day12.c
+
+[2021ict52@fedora ~]$ gcc Day12.c -o Day12
+[2021ict52@fedora ~]$ ./Day12
+
+Hello World !
+
+
+=======================================================
+
+//variables
+
+int age;
+age = 25;
+int age = 25;
+
+======================================================
+
+
+#include<stdio.h>
+int main(){
+	int age = 22;
+	//printf(age);
+	printf("%d",age)
+	printf("\n");
+	
+	printf("C Programming");
+	
+	age=31;
+	printf("\nNew Age : %d",age);
+	return 0;
+}
+
+
+
+[2021ict52@fedora ~]vi Day12ii.cii
+[2021ict52@fedora ~]$ gcc Day12ii.c -o Day12ii
+[2021ict52@fedora ~]$ ./Day12ii
+22
+C Programming
+New Age : 31
+
+
+========================================================
+
+#include<stdio.h>
+int main(){
+	int firstNumber=25;
+	printf("First Number : %d",firstNumber);
+	
+	int secondNumber=firstNumber;
+	printf("\nSecond Number : %d",secondNumber);
+	printf("\n");
+return 0;
+}
+
+
+[2021ict52@fedora ~]$ vi Day12iii.c
+[2021ict52@fedora ~]$ gcc Day12iii.c -o Day12iii
+[2021ict52@fedora ~]$ ./Day12iii
+
+First Number : 25
+Second Number : 25
+
+
+
+=========================================================
+
+//Data Types
+
+#include<stdio.h>
+int main(){
+	int age = 10;
+	printf("%d",age);
+	printf("\n");
+	printf("Size : %zu", sizeof(age));
+	printf("\n");
+	
+return 0;
+}
+
+
+[2021ict52@fedora ~]$ vi Day12iv.c
+[2021ict52@fedora ~]$ gcc Day12iv.c -o Day12iv
+[2021ict52@fedora ~]$ ./Day12iv
+
+10
+Size : 4
+
+============================================================
+
+#include<stdio.h>
+int main(){
+	double number=12.45;
+	printf("%2lf",number);
+	printf("\n");
+	
+	float number1=10.9f;
+	printf("%f",number1);
+	printf("\n");
+	printf("%.1f",number1);
+	printf("\n");
+	
+	char character='z';
+	printf("%c",character);
+	printf("\n%d",character);
+	printf("\n");
+	
+return 0;
+}
+
+
+[2021ict52@fedora ~]$ vi Day12v.c
+[2021ict52@fedora ~]$ gcc Day12v.c -o Day12v
+[2021ict52@fedora ~]$ ./Day12v
+12.450000
+10.900000
+10.9
+z
+122
+
+
+==============================================================
+
+//take input from users
+
+#include<stdio.h>
+int main(){
+	
+	int age;
+	printf("Enter your Age : ");
+	scanf("%d",&age);
+	
+	printf("Age = %d",age);
+	printf("\n");
+	
+	double number;
+	char alpha;
+	printf("Enter Double input : ");
+	scanf("%lf", &number);
+	printf("\nYour Number is : %lf\n",number);
+	
+	printf("Enter char Character : ");
+	scanf(" %c", &alpha);
+	printf("\nYour Character is : %c\n,",alpha);
+	
+	
+return 0;
+}
+
+[2021ict52@fedvi Day12vi.c Day12vi
+[2021ict52@fedora ~]$ gcc Day12vi.c -o Day12vi
+[2021ict52@fedora ~]$ ./Day12vi
+Enter your Age :22
+Age = 22
+Enter Double input : 89.4
+
+Your Number is : 89.400000
+Enter char Character : m
+
+Your Character is : m
+
+
+==============================================================
+
+//Take multiple inputs together
+
+#include<stdio.h>
+int main(){
+	double number;
+	char alpha;
+	printf("Enter inputs : ");
+	scanf("%lf %c", &number,&alpha);
+	
+return 0;
+}
+
+
+
+==============================================================
+
+//operators
+
+int num = 100 + 50;
