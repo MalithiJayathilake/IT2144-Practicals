@@ -1,0 +1,62 @@
+Q1) Search the given word is palindrome or not.
+
+Output : It is a palindrome.
+	 It's n
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "Enter Number 1 : "
+read a
+echo "Enter Number 2 : "
+read b
+echo "Enter Number 3 : "
+read c
+
+gcd() {
+a=$1
+b=$2
+while [ $b -ne 0 ]
+do
+temp=$b
+b=$((a % b))
+a=$temp
+done
+echo $a
+}
+
+
+lcm() {
+a=$1
+b=$2
+gcdvalue=$(gcd $a $b)
+lcmvalue=$(( (a * b) / gcdvalue ))
+echo $lcmvalue
+}
+
+lcmresult=$(lcm $a $b)
+echo "LCM of $a and $b is: $lcmresult"
+
+gcdresult=$(gcd $b $c)
+echo "GCD of $b and $c is: $gcdresult"
