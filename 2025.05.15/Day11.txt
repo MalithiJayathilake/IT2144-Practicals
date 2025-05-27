@@ -1,0 +1,11 @@
+echo "Enter the word : "
+read word
+
+reverse=$(echo $word | rev)
+
+if ["$word"=="$reverse"];
+then
+echo "It's a Palindrome."
+else
+echo "Not a Palindrome."
+fi
